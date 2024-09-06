@@ -2,3 +2,7 @@ lo
 *.log
 log
 node_modules
+.env
+results/
+build-artifacts
+mochawesome-report

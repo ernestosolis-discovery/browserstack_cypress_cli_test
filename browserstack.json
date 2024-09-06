@@ -18,10 +18,15 @@
         "build_name": "build-name",
         "exclude": [],
         "parallels": "10",
-        "npm_dependencies": {},
+        "npm_dependencies": {
+            "cypress": "^13.3.2",
+            "mochawesome": "^7.1.3",
+            "mocha": "^10.7.3"
+        },
         "package_config_options": {},
         "headless": true,
-        "network_logs": true
+        "network_logs": true,
+        "downloads": ["./mochawesome-report"]
     },
     "connection_settings": {
         "local": false,
