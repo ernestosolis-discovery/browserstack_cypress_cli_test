@@ -26,9 +26,11 @@ https://www.browserstack.com/docs/automate/cypress/custom-reports-build-artifact
 
 ### Setup:
 Install dependencies:
-```npm i
-```
+
+`npm i`
+
 Install browserstack cli:
+
 `npm i -g browserstack-cypress`
 
 ### Authenticate with browserstack
